@@ -1,0 +1,27 @@
+
+.favoritePageContainer{
+    max-height: 80vh;
+    overflow-y: auto;
+    width: auto;
+}
+.favoriteCardContainer{
+    width: 60%;
+    
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 5px;
+    margin-top: 5px;
+   
+}
+.cityNaneContainer{
+    background-color: #b3afaf;
+    
+    border-radius: 3px;
+    opacity: 0.7;
+    padding-right: 8px;
+    padding-left: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.weatherContainer{
+    display: flex
+}

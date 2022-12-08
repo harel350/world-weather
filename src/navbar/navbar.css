@@ -1,0 +1,42 @@
+.navbarContainer {
+    text-align: start;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 100%;
+    display: flex;
+    align-items:baseline;
+    opacity: 0.7;
+    
+    
+
+}
+
+.ulNavbar{
+   margin-left: 40px;
+    padding-left: 0px;
+    display: flex;
+}
+.liNavBar {
+    list-style-type: none;
+    margin-bottom: 3px;
+
+}
+.linkNavbar{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 6px;
+    
+}
+.liNavBar:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+.body {
+    
+  
+
+}

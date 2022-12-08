@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-image: url('../../assets/test.jpg');
+}
+
+.homePageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.btnCFcontainer {
+    display: flex;
+    opacity: 0.8;
+    background-color: white;
+    transform: translateX(-107%);
+}
+
+.CFbutton {
+    padding: 3px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+.CFbutton:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
